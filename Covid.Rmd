@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Covid overview
 
-This project has the goal to observe the patterns of the covid pandemic in the year of 2019
+This project has the goal to observe the patterns of the covid pandemic in the years of 2019 to 2023.
 
 To start this analysis we download a data set from John Hoppics found on this website: <https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series>
 Then we cleaned the set to facilitate the analyses. We remove columns that wouldn't be used for analyses and also rows with negative values for cases since you can't have negative covid cases. Finally, we end up with 2 main datasets: Global(all cases and deaths), Us(all us cases and deaths)
